@@ -1,0 +1,67 @@
+.clickbutton {
+  display: block;
+  margin: 20px auto;
+  padding: 11px;
+  font-size: 13px;
+  border-radius: 10px;
+  border-color: #1f0344;
+  background-color: #2a2a2a; 
+  color: #ca88ff;
+}
+
+.clickbutton:hover {
+  background-color: #3e0589;
+}
+
+.clickbutton:active {
+  background-color: #3e0589;
+}
+
+.APPI {
+  font-size: 40px;
+  font-weight: Medium;
+  color: #ca88ff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  height: 50px;
+  margin-top: 17%;
+}
+
+.text-warn {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.link-text{
+  cursor: pointer;
+  color: royalblue;
+}
+
+.api-field{
+  margin: 0 auto;
+  margin-top: 20px;
+  display: block;
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ccc;
+  background-color: #2a2a2a;
+  border: 2px solid hsl(276, 100%, 15%);
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+:host {
+  display: block;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  height: 400px;
+}

@@ -1,0 +1,11 @@
+<div class="container">
+
+    <div class="clickbutton-wrapper" *ngIf="asteroidData && asteroidData.length > 0">
+        <p class="text" (click)="getAsteroidName()">Name: {{ getAsteroidName() }}</p>
+        <p class="text">Max.Distance: {{ getMaxEstimatedDiameter()}}</p>
+        <p class="text">Min.Distance: {{ getMinEstimatedDiameter()}}</p>
+    </div>
+
+</div>
+
+   

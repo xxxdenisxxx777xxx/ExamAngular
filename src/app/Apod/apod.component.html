@@ -1,0 +1,12 @@
+<div class="container">
+
+    <div class="clickbutton-wrapper">
+      <p class="text" (click)="showCopyright()">{{nasa[currentIndex].copyright}}</p>
+      <p class="text">{{nasa[currentIndex].date}}</p>
+      <p class="text">{{nasa[currentIndex].explanation}}</p>
+      <img [src]="nasa[currentIndex].hdurl" alt="Image" id="pictures">
+    </div>
+
+  </div>
+  
+  <p *ngFor="let url of urls"><img [src]="url"></p>
